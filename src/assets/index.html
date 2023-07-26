@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <title>Urban Clothing Store</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div id="navbar" class="navbar">
+        <h2>Urban Clothing Store</h2>
+        <div class="cart">
+            <i class="bi bi-bag-fill"></i>
+            <div class="cartAmount">0</div>
+        </div>
+    </div>
+
+    <div id="shop" class="shop">
+        <div class="item">
+            <img width="200" src="images/product3.jpg" alt="Custom Air Forces">
+            <div class="details">
+                <h3>Custom Air Force 1s</h3>
+                <p>Show off your creativity with your own custom AF1s to compliment any outfit in your closet!</p>
+                <div class="price-quantity">
+                    <h2>$175</h2>
+                    <div class="buttons">
+                        <i class="bi bi-dash-lg"></i>
+                        <div class="quantity">0</div>
+                        <i class="bi bi-plus-lg"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <img width="200" src="images/product2.jpg" alt="Woman's Crop Top">
+            <div class="details">
+                <h3>Woman's Crop Sweatshirt</h3>
+                <p>Stylish Crop Sweatshirt</p>
+                <div class="price-quantity">
+                    <h2>$25</h2>
+                    <div class="buttons">
+                        <i class="bi bi-dash-lg"></i>
+                        <div class="quantity">0</div>
+                        <i class="bi bi-plus-lg"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <img width="200" src="images/product1.jpg" alt="Mens Graphic Tee">
+            <div class="details">
+                <h3>Men's Graphic Tee</h3>
+                <p>Graphic "Heart Break Kid" Tee</p>
+                <div class="price-quantity">
+                    <h2>$25</h2>
+                    <div class="buttons">
+                        <i class="bi bi-dash-lg"></i>
+                        <div class="quantity">0</div>
+                        <i class="bi bi-plus-lg"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <img width="200" src="images/product4.jpg" alt="Outfit Subscription">
+            <div class="details">
+                <h3>Monthly Outfit Subscription</h3>
+                <p>Get an outfit based on your style sent to you monthly</p>
+                <div class="price-quantity">
+                    <h2>$100 per month</h2>
+                    <div class="buttons">
+                        <i class="bi bi-dash-lg"></i>
+                        <div class="quantity">0</div>
+                        <i class="bi bi-plus-lg"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Shopping cart section -->
+    <div class="cart-section">
+        <h2>Your Shopping Cart</h2>
+        <div class="cart-container">
+            <!-- Cart items will be dynamically added here by JavaScript -->
+        </div>
+        <div class="cart-total">
+            <!-- Total price will be dynamically updated here by JavaScript -->
+        </div>
+        <button id="clearCartButton">Clear Cart</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
